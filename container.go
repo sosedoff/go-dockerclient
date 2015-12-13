@@ -101,6 +101,7 @@ type State struct {
 	Error      string    `json:"Error,omitempty" yaml:"Error,omitempty"`
 	StartedAt  time.Time `json:"StartedAt,omitempty" yaml:"StartedAt,omitempty"`
 	FinishedAt time.Time `json:"FinishedAt,omitempty" yaml:"FinishedAt,omitempty"`
+	Status     string    `json:"Status,omitempty" yaml:"Status,omitempty"`
 }
 
 // String returns the string representation of a state.
